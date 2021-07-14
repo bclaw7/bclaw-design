@@ -5,7 +5,7 @@ import { Container, Image, Row, Col, Card, Button } from 'react-bootstrap';
 export default function Works() {
   return (
     <Container>
-      <Image src='../img/web-design-logo.png' fluid />
+      <Image className='mt-5 py-5' src='../img/web-design-logo.png' fluid />
       <Row xs={1} md={2} className='g-4'>
         {Array.from({ length: 4 }).map((_, idx) => (
           <Col>
