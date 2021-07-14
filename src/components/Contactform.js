@@ -3,9 +3,9 @@ import { Container, Form, Button } from 'react-bootstrap';
 
 export default function Contact() {
   return (
-    <Container className='py-5'>
+    <Container className='py-4'>
       <h3 className='text-center text-secondary'>
-        Message Me {''}&#128075;{''}
+        {''}&#128075;{''} Message Me!
       </h3>
       <Form>
         <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
