@@ -9,7 +9,7 @@ export default function Works() {
       <Row xs={1} md={2} className='g-4'>
         {Array.from({ length: 4 }).map((_, idx) => (
           <Col>
-            <Card>
+            <Card border='secondary'>
               <Card.Img variant='top' src='../img/block-hand.jpg' />
               <Card.Body>
                 <Card.Title>Wood Block</Card.Title>
