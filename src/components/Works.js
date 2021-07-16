@@ -1,50 +1,68 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Image, Row, Col, Card, Button } from 'react-bootstrap';
+import WorksButtons from './WorksButtons';
+import { Container, Image, Row, Col, Card } from 'react-bootstrap';
 
 export default function Works() {
   return (
     <Container>
-      <Image className='mt-5 py-5' src='../img/web-design-logo.png' fluid />
+      <Image className='mt-3 py-3' src='../img/web-design-logo.png' fluid />
       <Row xs={1} md={2} className='g-4'>
-        {Array.from({ length: 4 }).map((_, idx) => (
-          <Col>
-            <Card border='secondary'>
-              <Card.Img variant='top' src='../img/block-hand.jpg' />
-              <Card.Body>
-                <Card.Title>Wood Block</Card.Title>
-                <Card.Text>
-                  This is a layered composition using Adobe Photoshop. Check out
-                  those gradient overlays!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
+        <Col>
+          <Card border='secondary'>
+            <Card.Img variant='top' src='../img/block-hand.jpg' />
+            <Card.Body>
+              <Card.Title>Toy Wood Block</Card.Title>
+              <Card.Text>
+                Check out those gradient overlays! I used Adobe Photoshop to
+                create this layered composition. Masking, blend modes, color
+                overlays, and other fine-tuning tools were used on this piece.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card border='secondary'>
+            <Card.Img variant='top' src='../img/mtn-men-contractors-logo.jpg' />
+            <Card.Body>
+              <Card.Title>Mtn Men Contractors</Card.Title>
+              <Card.Text>
+                I used affinity designer to create this beautiful logo. All of
+                the the colors can easily change along with transparency. The
+                client was very satisfied with this logo.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card border='secondary'>
+            <Card.Img variant='top' src='../img/cosmo-cosmos.jpg' />
+            <Card.Body>
+              <Card.Title>Outa' Frame</Card.Title>
+              <Card.Text>
+                My son Cosmo is in many of my works. He loves to play along and
+                join the fun. I use affinity photo to create this composition.
+                Masking, lighting effects, and filters were used to create this
+                piece.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card border='secondary'>
+            <Card.Img variant='top' src='../img/commandt-movie-poster.jpg' />
+            <Card.Body>
+              <Card.Title>Command T</Card.Title>
+              <Card.Text>
+                What a fun project this one was! There are several layers in
+                this composition. Masking was used maticulously. I also used a
+                lot of lighting effects and shadows to create a natural look and
+                feel.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
-      <Row className='text-center pt-4 my-5'>
-        <Col>
-          <Link to='/'>
-            <Button variant='outline-secondary'>Home</Button>
-          </Link>
-        </Col>
-        <Col>
-          <Button
-            href='https://github.com/bclaw7'
-            target='_blank'
-            variant='outline-secondary'>
-            GitHub
-          </Button>
-        </Col>
-        <Col>
-          <Button
-            href='https://www.linkedin.com/in/byron-lawlis-bba36420a/'
-            target='_blank'
-            variant='outline-secondary'>
-            Linked<strong>in</strong>
-          </Button>
-        </Col>
-      </Row>
+      <WorksButtons />
     </Container>
   );
 }

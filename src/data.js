@@ -1,4 +1,4 @@
-export const portfolioData = [
+export const projects = [
   {
     id: 1,
     img: '/img/block-hand.jpg',
