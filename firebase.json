@@ -11,8 +11,8 @@
     ],
     "rewrites": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "submit",
+        "function": "submit"
       }
     ]
   }
