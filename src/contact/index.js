@@ -27,9 +27,9 @@ const ContactForm = () => {
     )
       .then((res) => {
         db.collection('emails').add({
-          name: formData.name.value,
-          email: formData.email.value,
-          message: formData.message.value,
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
           time: new Date(),
         });
       })
