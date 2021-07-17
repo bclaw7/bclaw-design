@@ -1,8 +1,7 @@
 import React from 'react';
 import Buttons from './HomeButtons';
 import ContactForm from '../contact';
-import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
+import { Container, Image } from 'react-bootstrap';
 
 export default function Home() {
   return (

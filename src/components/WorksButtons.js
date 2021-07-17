@@ -8,7 +8,9 @@ export default function WorksButtons() {
       <Row className='text-center pt-4 my-5'>
         <Col>
           <Link to='/'>
-            <Button variant='outline-secondary'>Home</Button>
+            <Button variant='outline-secondary'>
+              <i class='bi bi-house-door'></i>Home
+            </Button>
           </Link>
         </Col>
         <Col>
@@ -16,6 +18,7 @@ export default function WorksButtons() {
             href='https://github.com/bclaw7'
             target='_blank'
             variant='outline-secondary'>
+            <i class='bi bi-github'></i>
             GitHub
           </Button>
         </Col>
@@ -24,6 +27,7 @@ export default function WorksButtons() {
             href='https://www.linkedin.com/in/byron-lawlis-bba36420a/'
             target='_blank'
             variant='outline-secondary'>
+            <i class='bi bi-linkedin'></i>
             Linked<strong>in</strong>
           </Button>
         </Col>

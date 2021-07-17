@@ -8,7 +8,9 @@ export default function HomeButtons() {
       <Row className='text-center mb-5'>
         <Col>
           <Link to='/works'>
-            <Button variant='outline-secondary'>Works</Button>
+            <Button variant='outline-secondary'>
+              <i className='bi bi-tools'></i>Works
+            </Button>
           </Link>
         </Col>
         <Col>
@@ -16,6 +18,7 @@ export default function HomeButtons() {
             href='https://github.com/bclaw7'
             target='_blank'
             variant='outline-secondary'>
+            <i className='bi bi-github'></i>
             GitHub
           </Button>
         </Col>
@@ -24,6 +27,7 @@ export default function HomeButtons() {
             href='https://www.linkedin.com/in/byron-lawlis-bba36420a/'
             target='_blank'
             variant='outline-secondary'>
+            <i className='bi bi-linkedin'></i>
             Linked<strong>in</strong>
           </Button>
         </Col>
