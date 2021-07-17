@@ -10,8 +10,10 @@
       "**/node_modules/**"
     ],
     "rewrites": [
+        {"source": "**",
+        "destination": "/index.html"},
       {
-        "source": "submit",
+        "source": "/submit",
         "function": "submit"
       }
     ]

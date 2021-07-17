@@ -5,7 +5,11 @@ import { Container, Image, Row, Col, Card } from 'react-bootstrap';
 export default function Works() {
   return (
     <Container>
-      <Image className='mt-3 py-3' src='img/web-design-logo.png' fluid />
+      <Image
+        className='mt-3 py-3'
+        src={require('img/web-design-logo.png')}
+        fluid
+      />
       <Row xs={1} md={2} className='g-4'>
         <Col>
           <Card border='secondary'>
