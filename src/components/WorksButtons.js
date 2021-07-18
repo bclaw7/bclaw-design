@@ -9,7 +9,7 @@ export default function WorksButtons() {
         <Col>
           <Link to='/'>
             <Button variant='outline-secondary'>
-              <i class='bi bi-house-door'></i>Home
+              <i class='bi bi-house-door'></i> Home
             </Button>
           </Link>
         </Col>
@@ -18,8 +18,7 @@ export default function WorksButtons() {
             href='https://github.com/bclaw7'
             target='_blank'
             variant='outline-secondary'>
-            <i class='bi bi-github'></i>
-            GitHub
+            <i class='bi bi-github'></i> GitHub
           </Button>
         </Col>
         <Col>
@@ -27,8 +26,7 @@ export default function WorksButtons() {
             href='https://www.linkedin.com/in/byron-lawlis-bba36420a/'
             target='_blank'
             variant='outline-secondary'>
-            <i class='bi bi-linkedin'></i>
-            Linked<strong>in</strong>
+            Linked<i class='bi bi-linkedin'></i>
           </Button>
         </Col>
       </Row>
