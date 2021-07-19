@@ -1,5 +1,5 @@
 import React from 'react';
-import WorksButtons from './WorksButtons';
+import Buttons from './WorksButtons';
 import { Container, Image, Row, Col, Card } from 'react-bootstrap';
 import logo from '../img/web-design-logo.png';
 import wood from '../img/block-hand.jpg';
@@ -68,7 +68,7 @@ export default function Works() {
             </Card>
           </Col>
         </Row>
-        <WorksButtons />
+        <Buttons />
       </Container>
     </>
   );
