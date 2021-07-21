@@ -1,4 +1,4 @@
-export const projects = [
+export const WorksData = [
   {
     id: 1,
     img: '/img/block-hand.jpg',

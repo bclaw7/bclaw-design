@@ -1,4 +1,6 @@
 const functions = require('firebase-functions');
+const admin = require('firebase-admin');
+admin.initializeApp();
 const nodemailer = require('nodemailer');
 const cors = require('cors')({
   origin: true,
@@ -31,7 +33,7 @@ exports.submit = functions.https.onRequest((req, res) => {
         from: req.body.email,
         replyTo: req.body.email,
         to: gmailEmail,
-        subject: `${req.body.name} just messaged me from my website`,
+        subject: `${req.body.name} just messaged you from bclaw.design`,
         text: req.body.message,
         html: `<p>${req.body.message}</p>`,
       };
@@ -46,10 +48,3 @@ exports.submit = functions.https.onRequest((req, res) => {
     });
   }
 });
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//   functions.logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
