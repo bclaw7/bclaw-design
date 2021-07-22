@@ -41,7 +41,7 @@ const ContactForm = () => {
   return (
     <Container className=' mt-5 py-4'>
       <h3 className='text-center text-secondary'>
-        {''}&#128075;{''} Contact Me!
+        {''}&#128075;{''} Hello !
       </h3>
       <Form onSubmit={handleSubmit}>
         <Form.Group className='mb-3'>
@@ -75,7 +75,7 @@ const ContactForm = () => {
             required
           />
         </Form.Group>
-        <div className='d-grid'>
+        <div className='d-grid mb-3'>
           <Button variant='outline-secondary' type='submit'>
             Send Message
           </Button>
