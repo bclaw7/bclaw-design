@@ -1,14 +1,19 @@
 import React from 'react';
-import { Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { Row, Col } from 'react-bootstrap';
+import styled from 'styled-components';
+import About from './About';
 
 export default function HomeButtons() {
   return (
     <>
       <Row className='text-center mb-5'>
         <Col>
+          <About />
+        </Col>
+        <Col>
           <Link to='/works'>
-            <Button variant='outline-secondary'>
+            <Button className='btn btn-outline-secondary'>
               <i className='bi bi-tools'></i> Works
             </Button>
           </Link>
@@ -17,7 +22,7 @@ export default function HomeButtons() {
           <Button
             href='https://github.com/bclaw7'
             target='_blank'
-            variant='outline-secondary'>
+            className='btn btn-outline-secondary'>
             <i className='bi bi-github'></i> GitHub
           </Button>
         </Col>
@@ -25,7 +30,7 @@ export default function HomeButtons() {
           <Button
             href='https://www.linkedin.com/in/byron-lawlis-bba36420a/'
             target='_blank'
-            variant='outline-secondary'>
+            className='btn btn-outline-secondary'>
             Linked<i className='bi bi-linkedin'></i>
           </Button>
         </Col>
@@ -33,3 +38,7 @@ export default function HomeButtons() {
     </>
   );
 }
+
+const Button = styled.button`
+  font-size: 3vw;
+`;

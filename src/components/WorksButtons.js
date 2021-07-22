@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
+import styled from 'styled-components';
 
 export default function WorksButtons() {
   return (
@@ -8,7 +9,7 @@ export default function WorksButtons() {
       <Row className='text-center pt-4 my-5'>
         <Col>
           <Link to='/'>
-            <Button variant='outline-secondary'>
+            <Button className='btn btn-outline-secondary'>
               <i class='bi bi-house-door'></i> Home
             </Button>
           </Link>
@@ -17,7 +18,7 @@ export default function WorksButtons() {
           <Button
             href='https://github.com/bclaw7'
             target='_blank'
-            variant='outline-secondary'>
+            className='btn btn-outline-secondary'>
             <i class='bi bi-github'></i> GitHub
           </Button>
         </Col>
@@ -25,7 +26,7 @@ export default function WorksButtons() {
           <Button
             href='https://www.linkedin.com/in/byron-lawlis-bba36420a/'
             target='_blank'
-            variant='outline-secondary'>
+            className='btn btn-outline-secondary'>
             Linked<i class='bi bi-linkedin'></i>
           </Button>
         </Col>
@@ -33,3 +34,7 @@ export default function WorksButtons() {
     </>
   );
 }
+
+const Button = styled.button`
+  font-size: 3vw;
+`;
