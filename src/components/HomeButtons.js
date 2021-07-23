@@ -19,20 +19,21 @@ export default function HomeButtons() {
           </Link>
         </Col>
         <Col>
-          <Button
-            href='https://github.com/bclaw7'
-            target='_blank'
-            className='btn btn-outline-secondary'>
-            <i className='bi bi-github'></i> GitHub
-          </Button>
+          <a rel='noreferrer' href='https://github.com/bclaw7' target='_blank'>
+            <Button className='btn btn-outline-secondary'>
+              <i className='bi bi-github'></i> GitHub
+            </Button>
+          </a>
         </Col>
         <Col>
-          <Button
+          <a
+            rel='noreferrer'
             href='https://www.linkedin.com/in/byron-lawlis-bba36420a/'
-            target='_blank'
-            className='btn btn-outline-secondary'>
-            Linked<i className='bi bi-linkedin'></i>
-          </Button>
+            target='_blank'>
+            <Button className='btn btn-outline-secondary'>
+              Linked<i className='bi bi-linkedin'></i>
+            </Button>
+          </a>
         </Col>
       </Row>
     </>

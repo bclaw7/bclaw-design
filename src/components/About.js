@@ -16,7 +16,7 @@ export default function About() {
         <i className='bi bi-info-circle'></i> About
       </Button>
       <Modal show={show} onHide={handleClose} size='lg'>
-        <Modal.Header>
+        <Modal.Header closeButton>
           <Modal.Title>Byron Cole Lawlis</Modal.Title>
         </Modal.Header>
         <Modal.Body>
