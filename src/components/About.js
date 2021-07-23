@@ -13,23 +13,18 @@ export default function About() {
   return (
     <>
       <Button className='btn btn-outline-secondary' onClick={handleShow}>
-        <i class='bi bi-info-circle'></i> About
+        <i className='bi bi-info-circle'></i> About
       </Button>
       <Modal show={show} onHide={handleClose} size='lg'>
         <Modal.Header>
-          <Modal.Title>
-            Byron Cole Lawlis
-            <Rotate>
-              <i class='bi bi-disc-fill'></i>
-            </Rotate>
-          </Modal.Title>
+          <Modal.Title>Byron Cole Lawlis</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Image src={byron} thumbnail />
           <p className='lead'>
             I am a Dad who loves spending time with family and friends. You can
             most likely find us on the trails of Colorado with our dog Tabbe or
-            paddleboarding in the warmer months. We love to snowshoe and
+            paddleboarding on the high elevation lakes. We love to snowshoe and
             snowboard all winter long.
           </p>
           <p>
@@ -44,7 +39,6 @@ export default function About() {
           </p>
           <p>
             <Link to='/works'>Check out my works for the full experience.</Link>
-            Send me a message, ask a question, give some feedback.
           </p>
           <p>Thanks for visiting.</p>
           <p>
@@ -61,17 +55,4 @@ export default function About() {
 
 const Button = styled.button`
   font-size: 3vw;
-`;
-const Rotate = styled.div`
-display: inline-block;
-animation: rotate 2s linear infinite;
-padding: 2rem 1rem;
-font-size: 1.2rem;
-
-@keyframes rotate {
-    from transform: rotate(0deg);
-}
-to {
-    transform: rotate(360deg)
-}
 `;

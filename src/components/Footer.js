@@ -8,7 +8,6 @@ export default function Footer() {
         <Col xs lg='2'>
           &copy; Copyright 2021 bclaw.design
         </Col>
-        <Col md='auto'>||</Col>
         <Col xs lg='2'>
           Design by: Byron Cole Lawlis
         </Col>

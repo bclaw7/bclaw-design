@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Container>
-        <Image src='../img/bclaw-design-ooze.png' fluid />
+        <Image src='../img/bclaw-design-gradient.png' fluid />
         <Buttons />
         <br />
         <br />
