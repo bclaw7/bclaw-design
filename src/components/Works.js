@@ -26,7 +26,7 @@ export default function Works() {
                   and more at the link below.
                 </Card.Text>
                 <Card.Link
-                  href='https://tyler-t-31b26.web.app/'
+                  href='https://tyler-t-music.web.app/'
                   target='_blank'>
                   Tyler T.
                 </Card.Link>
