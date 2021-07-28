@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import Buttons from './HomeButtons';
 import ContactForm from './ContactForm';
+import ParticlesBg from 'particles-bg';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <br />
         <ContactForm />
       </Container>
+      <ParticlesBg type='random' bg={true} />
     </>
   );
 }

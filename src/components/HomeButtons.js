@@ -2,14 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
-import About from './About';
 
 export default function HomeButtons() {
   return (
     <>
       <Row className='text-center mb-5'>
         <Col>
-          <About />
+          <Link to='/about'>
+            <Button className='btn btn-outline-secondary'>
+              <i className='bi bi-info-circle'></i> About
+            </Button>
+          </Link>
         </Col>
         <Col>
           <Link to='/works'>

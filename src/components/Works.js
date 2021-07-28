@@ -15,23 +15,24 @@ export default function Works() {
         <Image fluid className='mt-3 py-3' src={logo} />
         <Row xs={1} md={2} className='g-4'>
           <Col>
-            <Card border='secondary'>
-              <Card.Img variant='top' src={tylert} />
-              <Card.Body>
-                <Card.Title>Tyler T.</Card.Title>
-                <Card.Text>
-                  For this web application I used HTML5, CSS3, Javascript,
-                  React, Bootstrap, Styled-Components, and google fonts. I
-                  really had fun building this site. Check out the merch store
-                  and more at the link below.
-                </Card.Text>
-                <Card.Link
-                  href='https://tyler-t-music.web.app/'
-                  target='_blank'>
-                  Tyler T.
-                </Card.Link>
-              </Card.Body>
-            </Card>
+            <a
+              className='tyler'
+              href='https://tyler-t-music.web.app/'
+              target='_blank'
+              rel='noreferrer'>
+              <Card border='secondary'>
+                <Card.Img variant='top' src={tylert} />
+                <Card.Body>
+                  <Card.Title>Tyler T.</Card.Title>
+                  <Card.Text>
+                    For this web application I used HTML5, CSS3, Javascript,
+                    React, Bootstrap, Styled-Components, Affinity Photo, and
+                    Google Fonts. I used Firebase to deploy the site. Check out
+                    the merch store and more.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
           <Col>
             <Card border='secondary'>
@@ -94,8 +95,8 @@ export default function Works() {
             </Card>
           </Col>
         </Row>
-        <Buttons />
       </Container>
+      <Buttons />
     </>
   );
 }
