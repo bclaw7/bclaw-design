@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Image } from 'react-bootstrap';
+// import styled from 'styled-components';
 import byron from '../img/Byron-n-Germany.jpg';
 import Buttons from './WorksButtons';
 
@@ -22,7 +23,7 @@ export default function About() {
         </p>
         <p>
           I love music, art, and design on all types of mediums. I'm always
-          learing and creating. I like to build fun, interactive, creative web
+          learing and creating. I build fun, interactive, creative web
           applications. I use HTML5, CSS3, JavaScript, Bootstrap,
           Styled-Components, React.js, firebase, Affinity Photo and Designer.
         </p>
@@ -45,3 +46,38 @@ export default function About() {
     </>
   );
 }
+
+// const Title = styled.h1`
+//   @font-face {
+//     font-family: 'Sedgwick Ave Disply';
+//     src: url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+//     font-weight: bolder;
+//     background: linear-gradient(
+//       311deg,
+//       rgb(154, 0, 0) 20%,
+//       rgb(0, 96, 0) 20%,
+//       rgb(0, 96, 0) 40%,
+//       rgb(0, 0, 166) 40%,
+//       rgb(0, 0, 166) 60%,
+//       rgb(87, 0, 128) 60%,
+//       rgb(87, 0, 128) 80%,
+//       rgb(120, 64, 0) 80%,
+//       rgb(120, 64, 0) 100%
+//     );
+//     background-clip: text;
+//     background: -webkit-linear-gradient(
+//       311deg,
+//       rgb(154, 0, 0) 20%,
+//       rgb(0, 96, 0) 20%,
+//       rgb(0, 96, 0) 40%,
+//       rgb(0, 0, 166) 40%,
+//       rgb(0, 0, 166) 60%,
+//       rgb(87, 0, 128) 60%,
+//       rgb(87, 0, 128) 80%,
+//       rgb(120, 64, 0) 80%,
+//       rgb(120, 64, 0) 100%
+//     );
+//     -webkit-background-clip: text;
+//     -webkit-text-fill-color: transparent;
+//   }
+// `;

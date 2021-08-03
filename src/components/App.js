@@ -4,6 +4,7 @@ import Home from './Home';
 import Works from './Works';
 import About from './About';
 import Footer from './Footer';
+import Default from './Default';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route path='/works' component={Works} />
           <Route path='/about' component={About} />
+          <Route component={Default} />
         </Switch>
       </Router>
       <Footer />

@@ -39,6 +39,10 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+h2, h3 {
+    font-family: 'Sedgwick Ave Display';
+}
+
 a.tyler:link {
     text-decoration: none;
     color: #171717;
