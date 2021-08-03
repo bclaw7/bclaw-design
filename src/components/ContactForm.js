@@ -40,9 +40,9 @@ const ContactForm = () => {
 
   return (
     <Container className=' mt-5 py-4'>
-      <h3 className='text-center text-secondary display-4'>
+      <h4 className='text-center text-secondary display-3'>
         {''}&#128075;{''} Hello !
-      </h3>
+      </h4>
       <Form onSubmit={handleSubmit}>
         <Form.Group className='mb-3'>
           <Form.Control
