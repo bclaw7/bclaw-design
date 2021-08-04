@@ -1,15 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Image } from 'react-bootstrap';
 import Bounce from 'react-reveal/Bounce';
 import byron from '../img/Byron-n-Germany.jpg';
 import Buttons from './WorksButtons';
-import { firebaseAnalytics } from '../firebase/firebaseConfig';
 
 export default function About() {
-  useEffect(() => {
-    firebaseAnalytics.logEvent('about_visited');
-  });
   return (
     <>
       <Container className='text-center'>

@@ -1,18 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Buttons from './WorksButtons';
 import { Container, Image, Row, Col, Card } from 'react-bootstrap';
 import logo from '../img/web-design-logo.png';
 import tylert from '../img/tylert-music-app.jpg';
+import boyz from '../img/noyz-boyz-app';
 import wood from '../img/block-hand.jpg';
 import mmc from '../img/mtn-men-contractors-logo.jpg';
 import cosmo from '../img/cosmo-cosmos.jpg';
 import poster from '../img/commandt-movie-poster.jpg';
-import { firebaseAnalytics } from '../firebase/firebaseConfig';
 
 export default function Works() {
-  useEffect(() => {
-    firebaseAnalytics.logEvent('works_visited');
-  });
   return (
     <>
       <Container>
@@ -20,7 +17,7 @@ export default function Works() {
         <Row xs={1} md={2} className='g-4'>
           <Col>
             <a
-              className='tyler'
+              className='cards'
               href='https://tyler-t-music.web.app/'
               target='_blank'
               rel='noreferrer'>
@@ -33,6 +30,25 @@ export default function Works() {
                     React, Bootstrap, Styled-Components, Affinity Photo, and
                     Google Fonts. I used Firebase to deploy the site. Check out
                     the merch store and more.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
+          </Col>
+          <Col>
+            <a
+              className='cards'
+              href='https://noyzboyz.design/'
+              target='_blank'
+              rel='noreferrer'>
+              <Card border='secondary'>
+                <Card.Img variant='top' src={boyz} />
+                <Card.Body>
+                  <Card.Title>Noyz Boyz</Card.Title>
+                  <Card.Text>
+                    For this web application I used HTML5, CSS3, Javascript,
+                    React, Bootstrap, Styled-Components, Affinity Photo, and
+                    Google Fonts. I used Firebase to deploy the site.
                   </Card.Text>
                 </Card.Body>
               </Card>

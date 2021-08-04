@@ -43,11 +43,14 @@ h2, h3 {
     font-family: 'Sedgwick Ave Display';
 }
 
-a.tyler:link {
+a.cards:link {
     text-decoration: none;
     color: #171717;
   }
-  a.tyler:visited {
+a.cards:hover {
+    box-shadow: 5px 5px 10px gray inset;
+}
+a.cards:visited {
     text-decoration: none;
     color:#171717;
   }
