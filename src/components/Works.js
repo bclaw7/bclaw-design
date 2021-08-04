@@ -3,11 +3,12 @@ import Buttons from './WorksButtons';
 import { Container, Image, Row, Col, Card } from 'react-bootstrap';
 import logo from '../img/web-design-logo.png';
 import tylert from '../img/tylert-music-app.jpg';
-import boyz from '../img/noyz-boyz-app';
+import boyz from '../img/noyz-boyz-app.png';
 import wood from '../img/block-hand.jpg';
 import mmc from '../img/mtn-men-contractors-logo.jpg';
 import cosmo from '../img/cosmo-cosmos.jpg';
 import poster from '../img/commandt-movie-poster.jpg';
+import seer from '../img/baby-cosmo-seer.jpg';
 
 export default function Works() {
   return (
@@ -28,8 +29,9 @@ export default function Works() {
                   <Card.Text>
                     For this web application I used HTML5, CSS3, Javascript,
                     React, Bootstrap, Styled-Components, Affinity Photo, and
-                    Google Fonts. I used Firebase to deploy the site. Check out
-                    the merch store and more.
+                    Google Fonts. I used Firebase to deploy and monitor the web
+                    application. Check out the merch store and more. Let me know
+                    what you think.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -38,7 +40,7 @@ export default function Works() {
           <Col>
             <a
               className='cards'
-              href='https://noyzboyz.design/'
+              href='http://noyzboyz.design/'
               target='_blank'
               rel='noreferrer'>
               <Card border='secondary'>
@@ -46,9 +48,13 @@ export default function Works() {
                 <Card.Body>
                   <Card.Title>Noyz Boyz</Card.Title>
                   <Card.Text>
-                    For this web application I used HTML5, CSS3, Javascript,
+                    For this custom landing page I used HTML5, CSS3, Javascript,
                     React, Bootstrap, Styled-Components, Affinity Photo, and
-                    Google Fonts. I used Firebase to deploy the site.
+                    Affinity Designer. I drew up the logo myself and added a
+                    radial gradient. I liked how the logo turned out. I will
+                    probably play around with different color schemes and font
+                    weight to see what looks best. I used Firebase to deploy and
+                    monitor the web application.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -110,6 +116,20 @@ export default function Works() {
                   50 layers in this composition. Masking was used maticulously.
                   I also used a lot of lighting effects and shadows to create a
                   natural look and feel.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card border='secondary'>
+              <Card.Img variant='top' src={seer} />
+              <Card.Body>
+                <Card.Title>Fortune Teller</Card.Title>
+                <Card.Text>
+                  This compostiton was my first creation using Affinity Photo.
+                  Lots of fun layers. I used masking, blending, and opacity on
+                  this piece. It gives me a laugh every time. I hope you enjoy
+                  it as well.
                 </Card.Text>
               </Card.Body>
             </Card>
