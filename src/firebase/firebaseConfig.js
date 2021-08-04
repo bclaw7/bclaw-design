@@ -21,4 +21,4 @@ const db = firebase.firestore();
 
 export { Axios, db };
 
-// export const firebaseAnalytics = firebase.analytics();
+export const firebaseAnalytics = firebase.analytics();

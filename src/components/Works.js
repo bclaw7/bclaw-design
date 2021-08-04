@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Buttons from './WorksButtons';
 import { Container, Image, Row, Col, Card } from 'react-bootstrap';
 import logo from '../img/web-design-logo.png';
@@ -7,12 +7,12 @@ import wood from '../img/block-hand.jpg';
 import mmc from '../img/mtn-men-contractors-logo.jpg';
 import cosmo from '../img/cosmo-cosmos.jpg';
 import poster from '../img/commandt-movie-poster.jpg';
-// import { firebaseAnalytics } from '../firebase/firebaseConfig';
+import { firebaseAnalytics } from '../firebase/firebaseConfig';
 
 export default function Works() {
-  //   useEffect(() => {
-  //     firebaseAnalytics.logEvent('works_visited');
-  //   });
+  useEffect(() => {
+    firebaseAnalytics.logEvent('works_visited');
+  });
   return (
     <>
       <Container>
