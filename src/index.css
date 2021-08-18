@@ -48,7 +48,7 @@ a.cards:link {
     color: #171717;
   }
 a.cards:hover {
-    box-shadow: 5px 5px 10px gray inset;
+    box-shadow: 5px 5px 10px gray;
 }
 a.cards:visited {
     text-decoration: none;

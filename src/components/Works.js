@@ -4,6 +4,7 @@ import { Container, Image, Row, Col, Card } from 'react-bootstrap';
 import logo from '../img/web-design-logo.png';
 import tylert from '../img/tylert-music-app.jpg';
 import boyz from '../img/noyz-boyz-app.png';
+import lawlis from '../img/lawlisfamily-blog.png';
 import wood from '../img/block-hand.jpg';
 import mmc from '../img/mtn-men-contractors-logo.jpg';
 import cosmo from '../img/cosmo-cosmos.jpg';
@@ -19,7 +20,7 @@ export default function Works() {
           <Col>
             <a
               className='cards'
-              href='https://tyler-t-music.web.app/'
+              href='https://tylertmusic.com/'
               target='_blank'
               rel='noreferrer'>
               <Card border='secondary'>
@@ -61,6 +62,26 @@ export default function Works() {
             </a>
           </Col>
           <Col>
+            <a
+              className='cards'
+              href='http://lawlisfamily.com/'
+              target='_blank'
+              rel='noreferrer'>
+              <Card border='secondary'>
+                <Card.Img variant='top' src={lawlis} />
+                <Card.Body>
+                  <Card.Title>Family Blog</Card.Title>
+                  <Card.Text>
+                    This is a simple blog site that I created using Wordpress. I
+                    have the site set up for donations to Cosmo's college fund.
+                    I also have it set where users can subscribe to receive blog
+                    posts in their email.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
+          </Col>
+          <Col>
             <Card border='secondary'>
               <Card.Img variant='top' src={wood} />
               <Card.Body>
@@ -93,20 +114,6 @@ export default function Works() {
           </Col>
           <Col>
             <Card border='secondary'>
-              <Card.Img variant='top' src={cosmo} />
-              <Card.Body>
-                <Card.Title>Outa' Frame</Card.Title>
-                <Card.Text>
-                  My son Cosmo is in many of my compositions. He loves to play
-                  along and join the fun. I used affinity photo to create this
-                  composition. Masking, ,blending, lighting effects, and filters
-                  were used in this creation.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card border='secondary'>
               <Card.Img variant='top' src={poster} />
               <Card.Body>
                 <Card.Title>Command T</Card.Title>
@@ -130,6 +137,20 @@ export default function Works() {
                   Lots of fun layers. I used masking, blending, and opacity on
                   this piece. It gives me a laugh every time. I hope you enjoy
                   it as well.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card border='secondary'>
+              <Card.Img variant='top' src={cosmo} />
+              <Card.Body>
+                <Card.Title>Outa' Frame</Card.Title>
+                <Card.Text>
+                  My son Cosmo is in many of my compositions. He loves to play
+                  along and join the fun. I used affinity photo to create this
+                  composition. Masking, ,blending, lighting effects, and filters
+                  were used in this creation.
                 </Card.Text>
               </Card.Body>
             </Card>
