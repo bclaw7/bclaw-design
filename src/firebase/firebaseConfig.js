@@ -17,7 +17,6 @@ let config = {
 };
 
 firebase.initializeApp(config);
-firebase.analytics();
 
 const db = firebase.firestore();
 

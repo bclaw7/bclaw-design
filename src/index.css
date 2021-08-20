@@ -40,17 +40,5 @@ h1 {
 }
 
 h2, h3 {
-    font-family: 'Sedgwick Ave Display';
+    font-family: 'Sedgwick Ave Display',Verdana, Geneva, Tahoma, sans-serif;
 }
-
-a.cards:link {
-    text-decoration: none;
-    color: #171717;
-  }
-a.cards:hover {
-    box-shadow: 5px 5px 10px gray;
-}
-a.cards:visited {
-    text-decoration: none;
-    color:#171717;
-  }
