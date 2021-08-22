@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import GoToTop from './GoToTop';
 import { Container, Image } from 'react-bootstrap';
+import styled from 'styled-components';
+import LightSpeed from 'react-reveal/LightSpeed';
 import Bounce from 'react-reveal/Bounce';
 import byron from '../img/Byron-n-Germany.jpg';
 import Buttons from './WorksButtons';
@@ -9,10 +12,12 @@ export default function About() {
   return (
     <>
       <Container className='text-center'>
-        <h1 className='display-1 py-3'>
-          <i class='bi bi-paint-bucket'></i>Byron Cole Lawlis
-        </h1>
-        <Bounce bottom>
+        <LightSpeed right>
+          <h1 id='about-top' className='display-1 py-3'>
+            <i className='bi bi-paint-bucket'></i>Byron Cole Lawlis
+          </h1>
+        </LightSpeed>
+        <Bounce bottom duration={2000}>
           <Image src={byron} roundedCircle />
         </Bounce>
       </Container>
@@ -29,28 +34,36 @@ export default function About() {
         <p>
           I love music, art, and design on all types of mediums. I'm always
           learning and creating. I build fun, interactive, creative web
-          applications. Experimenting and using the latest technologies is
-          important to me. I currently have expertise with the following
-          languages, tools, and libraries: HTML5, CSS3, JavaScript, Bootstrap,
-          Styled-Components, React.js, firebase, Affinity Photo, Affinity
-          Designer, and Adobe Photoshop.
+          applications. Experimenting and programming using the latest
+          technologies is important to me. I currently have expertise with the
+          following languages, tools, technologies, and libraries: HTML5, CSS3,
+          JavaScript, JQuery, php, Bootstrap, Styled-Components, React.js,
+          React-Reveal, axios, firebase, Wordpress, Elementor, Affinity Photo,
+          Affinity Designer, and Adobe Photoshop.
         </p>
         <p>
           Check out my{' '}
-          <Link to='/works' className='link-success'>
-            works
-          </Link>{' '}
+          <StyledLink to='/works' className='text-secondary'>
+            <i className='bi bi-tools'></i> Works
+          </StyledLink>{' '}
           for the full experience.
         </p>
         <p>Thanks for visiting.</p>
         <p>
-          <strong>Much Love.</strong>
+          <strong>
+            Much Love <i className='bi bi-heart text-danger'></i>
+          </strong>
         </p>
         <p>
           <em>-Byron</em>
         </p>
       </Container>
       <Buttons />
+      <GoToTop />
     </>
   );
 }
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+`;

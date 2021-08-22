@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Axios, db } from '../firebase/firebaseConfig';
+import Wobble from 'react-reveal/Wobble';
 import { Container, Form, Button } from 'react-bootstrap';
 
 const ContactForm = () => {
@@ -40,9 +41,11 @@ const ContactForm = () => {
 
   return (
     <Container className=' mt-5 py-4'>
-      <h4 className='text-center text-secondary display-3'>
-        {''}&#128075;{''} Hello !
-      </h4>
+      <Wobble delay={5000}>
+        <h4 className='text-center text-secondary display-3'>
+          {''}&#128075;{''} Hello !
+        </h4>
+      </Wobble>
       <Form onSubmit={handleSubmit}>
         <Form.Group className='mb-3'>
           <Form.Control
