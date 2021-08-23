@@ -41,7 +41,7 @@ const ContactForm = () => {
 
   return (
     <Container className=' mt-5 py-4'>
-      <Wobble delay={5000}>
+      <Wobble delay={3000}>
         <h4 className='text-center text-secondary display-3'>
           {''}&#128075;{''} Hello !
         </h4>

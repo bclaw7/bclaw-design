@@ -35,8 +35,9 @@ export default function Works() {
                     For this web application I used HTML5, CSS3, Javascript,
                     React, Bootstrap, Styled-Components, Affinity Photo, and
                     Google Fonts. I used Firebase to deploy and monitor the web
-                    application. Check out the merch store and more. Don't
-                    forget to support your local musicians.
+                    application. The merch store was the most challenging to
+                    build. Check out the merch store and more. Don't forget to
+                    support your local musicians.
                   </Card.Text>
                   <Button
                     href='https://tylertmusic.com/'
@@ -87,9 +88,11 @@ export default function Works() {
                   <Card.Text>
                     For this custom landing page I used HTML5, CSS3, Javascript,
                     Wordpress, Elementor, and Affinity Photo. I created the logo
-                    with Affinity Designer. Noyz Boyz is a sound design company
-                    out of Fort Collins, Colorado. They specialize in high
-                    quality immersive experiences.
+                    with Affinity Designer. It is a great program to design and
+                    create your own typography or logo. Noyz Boyz is a
+                    professional sound design company out of Fort Collins,
+                    Colorado. They specialize in high quality fully immersive
+                    experiences. Check out their website for more information.
                   </Card.Text>
                   <Button
                     href='http://noyzboyz.design/'
@@ -104,17 +107,19 @@ export default function Works() {
             </Flip>
           </Col>
           <Col>
-            <Flip top delay={3000}>
+            <Flip top delay={1000}>
               <Card border='secondary'>
                 <Card.Img variant='top' src={lawlis} />
                 <Card.Body>
                   <Card.Title>Family Blog</Card.Title>
                   <Card.Text>
-                    This is a simple blog site that I created using Wordpress. I
-                    have the site set up for donations to my son's college fund.{' '}
-                    <i className='bi bi-piggy-bank'></i>Donate now! I also have
-                    it set where users can subscribe to receive blog posts in
-                    their email. It's a great way to share milestones and
+                    This is a simple blog site that I created using Wordpress.
+                    This is my first hello world website. I have learned so much
+                    since. Never stop learning, never stop exploring. <br></br>{' '}
+                    I have the site set up for donations to my son's college
+                    fund. <i className='bi bi-piggy-bank'></i>Donate now! I also
+                    have it set where users can subscribe to receive blog posts
+                    in their email. It's a great way to share milestones and
                     experiences. The family adventures continue. Follow me.
                   </Card.Text>
                   <Button
@@ -130,7 +135,7 @@ export default function Works() {
             </Flip>
           </Col>
           <Col>
-            <Flip top delay={3000}>
+            <Flip top delay={1000}>
               <Card border='secondary'>
                 <Card.Img variant='top' src={wood} />
                 <Card.Body>
@@ -148,7 +153,7 @@ export default function Works() {
             </Flip>
           </Col>
           <Col>
-            <Flip top delay={3000}>
+            <Flip top delay={1000}>
               <Card border='secondary'>
                 <Card.Img variant='top' src={mmc} />
                 <Card.Body>
@@ -174,7 +179,7 @@ export default function Works() {
             </Flip>
           </Col>
           <Col>
-            <Flip top>
+            <Flip top delay={1000}>
               <Card border='secondary'>
                 <Card.Img variant='top' src={poster} />
                 <Card.Body>
@@ -193,7 +198,7 @@ export default function Works() {
             </Flip>
           </Col>
           <Col>
-            <Flip top delay={3000}>
+            <Flip top delay={1000}>
               <Card border='secondary'>
                 <Card.Img variant='top' src={cosmo} />
                 <Card.Body>

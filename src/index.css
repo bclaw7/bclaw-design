@@ -12,33 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-h1 {
-    font-family: 'Sedgwick Ave Display', Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    background: linear-gradient(311deg, rgb(154, 0, 0)    20%, 
-    rgb(0, 96, 0)  20%, 
-    rgb(0, 96, 0)  40%, 
-    rgb(0, 0, 166)   40%, 
-    rgb(0, 0, 166)   60%, 
-    rgb(87, 0, 128) 60%, 
-    rgb(87, 0, 128) 80%, 
-    rgb(120, 64, 0) 80%,
-    rgb(120, 64, 0) 100%);
-    background-clip: text;
-    background: -webkit-linear-gradient(311deg, rgb(154, 0, 0)    20%, 
-    rgb(0, 96, 0)  20%, 
-    rgb(0, 96, 0)  40%, 
-    rgb(0, 0, 166)   40%, 
-    rgb(0, 0, 166)   60%, 
-    rgb(87, 0, 128) 60%, 
-    rgb(87, 0, 128) 80%, 
-    rgb(120, 64, 0) 80%,
-    rgb(120, 64, 0) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-h2, h3 {
-    font-family: 'Sedgwick Ave Display',Verdana, Geneva, Tahoma, sans-serif;
-}
