@@ -61,10 +61,10 @@ export default function Works() {
                     For this complex multi-page website I used Wordpress, Local
                     by Flywheel, HTML5, CSS3, php, JavaScript, React, and Rest
                     API. I built a custom theme for this site. Users can create
-                    an account, take notes, update events, post blogs, and use a
-                    maps API to find campuses. This website is currently under
-                    construction. Come back for soon for updates and a link to
-                    visit the working site.
+                    an account, take notes, update events, post blogs, upload
+                    images, and use a maps API to find campuses. This website is
+                    currently under construction. Come back for soon for updates
+                    and a link to visit the working site.
                   </Card.Text>
                   <Button
                     href='#'
@@ -87,8 +87,9 @@ export default function Works() {
                   <Card.Title>Noyz Boyz</Card.Title>
                   <Card.Text>
                     For this custom landing page I used HTML5, CSS3, Javascript,
-                    Wordpress, Elementor, and Affinity Photo. I created the logo
-                    with Affinity Designer. It is a great program to design and
+                    Remixer, and Affinity Photo. Come back soon for an updated
+                    Wordpress/Elementor version. I created the logo with
+                    Affinity Designer. It is a great program to design and
                     create your own typography or logo. Noyz Boyz is a
                     professional sound design company out of Fort Collins,
                     Colorado. They specialize in high quality fully immersive
@@ -143,10 +144,11 @@ export default function Works() {
                   <Card.Text>
                     Check out those gradient overlays! I used Adobe Photoshop to
                     create this layered composition. Masking, blend modes, color
-                    overlays, and other fine-tuning tools were used for this
-                    creation. The wood block is actually yellow. I used a hue
-                    gradient overlay to create the vibrant colors without taking
-                    away from the texture of the wood.
+                    overlays, lighting effects, and other fine-tuning tools were
+                    used for this creation. The wood block was originally
+                    yellow. I used a hue gradient overlay and multiply blend
+                    mode to create the vibrant colors without taking away from
+                    the texture of the wood.
                   </Card.Text>
                 </Card.Body>
               </Card>

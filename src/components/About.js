@@ -46,13 +46,13 @@ export default function About() {
         </p>
         <p>
           {' '}
-          I recnently completed a six month web development bootcamp at{' '}
-          <AboutLink
+          I recenently completed a six month web development bootcamp at{' '}
+          <DwcLink
             href='https://digitalworkshopcenter.com/'
             target='_blank'
             rel='noreferrer'>
             The Digital Workshop Center
-          </AboutLink>{' '}
+          </DwcLink>{' '}
           in Fort Collins, Colorado. I learned and honed many useful skills from
           the brilliant and experienced professors. My capstone project for the
           class was to build an e-commerce store with react.js and deploy it
@@ -127,11 +127,11 @@ const StyledLink = styled(Link)`
     color: azure;
   }
 `;
-const AboutLink = styled.a`
-  color: azure;
+const DwcLink = styled.a`
+  color: #6c757d;
   text-decoration: none;
   transition: color 0.5s;
   &:hover {
-    color: #6c757d;
+    color: azure;
   }
 `;
