@@ -62,11 +62,30 @@ export default function About() {
           local musician. It's a win, win!
         </p>
         <p>
+          In my previous work experience I was a professional audio engineer. I
+          ran a successful business for 15 years. I had the opportunity to work
+          with some of the top musicians and technicians in the world. We always
+          pushed the limits to how a concert should be experienced. By creating
+          the best possible environment for the musicians and using high quality
+          gear from{' '}
+          <MeyerLink
+            href='https://meyersound.com/'
+            target='_blank'
+            rel='noreferrer'>
+            Meyer Sound
+          </MeyerLink>{' '}
+          we were able to produce fully immersive spatial audio experiences.
+        </p>
+        <p>
+          I will continue to be innovative and creative in my work. I love
+          learning from the best and putting those skills to good use.
+        </p>
+        <p>
           Check out my{' '}
           <StyledLink to='/works'>
             <i className='bi bi-tools'></i> Works
           </StyledLink>{' '}
-          for the full experience.
+          for a preview of web dev projects.
         </p>
         <p>Thanks for visiting.</p>
         <p>
@@ -128,6 +147,14 @@ const StyledLink = styled(Link)`
   }
 `;
 const DwcLink = styled.a`
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.5s;
+  &:hover {
+    color: azure;
+  }
+`;
+const MeyerLink = styled.a`
   color: #6c757d;
   text-decoration: none;
   transition: color 0.5s;
