@@ -39,10 +39,10 @@ export default function About() {
           web applications and user experiences. Experimenting and programming
           using the latest technologies is important to me. I currently have
           expertise with the following languages, tools, technologies, and
-          libraries: HTML5, CSS3, JavaScript, JQuery, Google Developer Tools,
-          Google Analytics, SEO, php, Bootstrap, Styled-Components, React.js,
-          firebase, Wordpress, Elementor, Local by Flywheel, MAMP, Affinity
-          Photo, Affinity Designer, and Adobe Photoshop.
+          libraries: HTML5, CSS3, JavaScript, Google Developer Tools, Google
+          Analytics, SEO, php, Bootstrap, Styled-Components, React.js, firebase,
+          Wordpress, Elementor, Local by Flywheel, MAMP, Affinity Photo,
+          Affinity Designer, and Adobe Photoshop.
         </p>
         <p>
           {' '}
