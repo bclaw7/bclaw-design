@@ -87,16 +87,15 @@ export default function Works() {
                   <Card.Title>Noyz Boyz</Card.Title>
                   <Card.Text>
                     For this custom landing page I used HTML5, CSS3, Javascript,
-                    Remixer, and Affinity Photo. Come back soon for an updated
-                    Wordpress/Elementor version. I created the logo with
-                    Affinity Designer. It is a great program to design and
-                    create your own typography or logo. Noyz Boyz is a
-                    professional sound design company out of Fort Collins,
-                    Colorado. They specialize in high quality fully immersive
-                    experiences. Check out their website for more information.
+                    React, Styled-Components, firebase, and Affinity Photo. I
+                    created the logo with Affinity Designer. It is a great
+                    program to design and create your own typography or logo.
+                    Noyz Boyz is a professional sound design company out of Fort
+                    Collins, Colorado. They specialize in high quality fully
+                    immersive spatial audio experiences.
                   </Card.Text>
                   <Button
-                    href='http://noyzboyz.design/'
+                    href='https://noyz-boyz.web.app/'
                     target='_blank'
                     variant='secondary'
                     className='stretched-link'>
