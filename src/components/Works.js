@@ -107,30 +107,7 @@ export default function Works() {
               </Card>
             </Flip>
           </Col>
-          <Col>
-            <Flip top delay={1000}>
-              <Card border='secondary'>
-                <Card.Img variant='top' src={spork} />
-                <Card.Body>
-                  <Card.Title>Spork Pirate</Card.Title>
-                  <Card.Text>
-                    I built this landing page for an Artist from Texas. I used
-                    React and Bootstrap to build this web app. I am currently
-                    adding CRUD operations to this site. The app will include a
-                    gallery and store. Check back soon for updates.
-                  </Card.Text>
-                  <Button
-                    href='https://spork-pirate.web.app/'
-                    target='_blank'
-                    variant='secondary'
-                    className='stretched-link'>
-                    <i className='bi bi-link'></i> Visit Site{' '}
-                    <i className='bi bi-link'></i>
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Flip>
-          </Col>
+
           <Col>
             <Flip top delay={1000}>
               <Card border='secondary'>
@@ -219,6 +196,30 @@ export default function Works() {
                     effects, and shadows to create a natural look and feel.
                     Narnia was my inspiration.
                   </Card.Text>
+                </Card.Body>
+              </Card>
+            </Flip>
+          </Col>
+          <Col>
+            <Flip top delay={1000}>
+              <Card border='secondary'>
+                <Card.Img variant='top' src={spork} />
+                <Card.Body>
+                  <Card.Title>Spork Pirate</Card.Title>
+                  <Card.Text>
+                    I built this landing page for an Artist from Lubbock, Texas.
+                    I used React and Bootstrap to build this web app. I am
+                    currently adding CRUD operations to this site. The app will
+                    include a gallery and store. Check back soon for updates.
+                  </Card.Text>
+                  <Button
+                    href='https://spork-pirate.web.app/'
+                    target='_blank'
+                    variant='secondary'
+                    className='stretched-link'>
+                    <i className='bi bi-link'></i> Visit Site{' '}
+                    <i className='bi bi-link'></i>
+                  </Button>
                 </Card.Body>
               </Card>
             </Flip>
