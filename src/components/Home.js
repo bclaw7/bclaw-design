@@ -12,7 +12,6 @@ export default function Home() {
         <Image src='../img/bclaw-design-gradient.png' fluid />
         <Buttons />
         <br />
-        <br />
         <ContactForm />
       </Container>
       <ParticlesBg type='random' bg={true} />
